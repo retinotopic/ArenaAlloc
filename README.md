@@ -1,2 +1,2 @@
 # ArenaAlloc
-allocator for personal usage
+personal simple growable arena allocator (linked list of variably-sized blocks)
