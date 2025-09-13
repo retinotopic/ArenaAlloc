@@ -21,7 +21,6 @@ pub fn ArenaAllocator(size_of_chunk: usize, comptime istest: bool) type {
     return struct {
         const Self = @This();
 
-        // pub const init: Self = .{};
         var chunk_size: usize = size_of_chunk;
         var chunkinfo: ?*ChunkInfo = null;
 
